@@ -10,7 +10,7 @@
 
 ## Getting Started
 
-In order to execute this project you must follow the steps below:
+In order to execute this project you must follow the steps below: 
 
 1. Install [Node JS](https://nodejs.org/) (version >= 20.x)
 1. Run `npm install` to install all the project dependencies
