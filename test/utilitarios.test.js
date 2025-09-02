@@ -132,6 +132,18 @@ describe('teste', () => {
 
         expect(invertedArray).toEqual([3, 2, 1])
     })
+
+    test('Metodo que mescla objeto', () => {
+        const obj1 = { a: 1, b: 2 };
+        const obj2 = { b: 99, c: 3 };
+
+        expect(utilitarios.mesclarObjetos(obj1, obj2)).toEqual({ a: 1, b: 99, c: 3 });
+    })
+
+    
+    test('Metodo que verifica se é palindromo', () => {
+        expect(utilitarios.ehPalindromo('banana')).toBe(false);
+    })
     
 
     test('Metodo que junta array', () => {
