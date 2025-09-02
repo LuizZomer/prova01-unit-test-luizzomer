@@ -144,6 +144,12 @@ describe('teste', () => {
     test('Metodo que verifica se é palindromo', () => {
         expect(utilitarios.ehPalindromo('banana')).toBe(false);
     })
+
+    test('Metodo que verifica se o numero é aleatorio', () => {
+        const numero = utilitarios.gerarNumeroAleatorio();
+        expect(numero).toBeGreaterThanOrEqual(0);
+        expect(numero).toBeLessThan(100);
+    })
     
 
     test('Metodo que junta array', () => {
